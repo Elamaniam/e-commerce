@@ -6,7 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CreateAdminTable' => $baseDir . '/database/migrations/2016_08_19_161321_create_admin_table.php',
+    'CreateCatagoriesTable' => $baseDir . '/database/migrations/2016_08_19_161700_create_catagories_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+    'CreatePivotTable' => $baseDir . '/database/migrations/2016_08_22_064556_create_pivot_table.php',
+    'CreateProductsTable' => $baseDir . '/database/migrations/2016_08_22_052212_create_products_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
@@ -514,4 +518,5 @@ return array(
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
     'TestCase' => $baseDir . '/tests/TestCase.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
+    'adminseeder' => $baseDir . '/database/seeds/adminseeder.php',
 );
